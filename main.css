@@ -1,0 +1,65 @@
+body{
+    background-image: url("assets/concrete.jpg");
+    background-size: 50%;
+}
+
+.front-card{
+    width:350px;
+    height: 612px;
+    margin: 35px auto;
+    background-color:rgb(252, 250, 248);
+    background-image: url("assets/logo.svg");
+    margin-bottom: 70px;
+    box-shadow: 10px 10px 15px 0px  #0f0f0f94;
+}
+h2{
+    position:relative;
+    left: 15.5%;
+    top: 2%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    position: relative;
+    top: 6%;
+    left: 16%;
+    letter-spacing: 1.5px;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.back-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-color:rgb(252, 250, 248);
+    background-image: url("assets/leaves.svg");
+    margin-bottom: 70px;
+    box-shadow: 10px 10px 15px 0px #0f0f0f94;
+}
+
+back-card:hover{
+    width:375px;
+    height:637px;
+}
+
+.icon-container{
+    display:grid;
+    margin: 0 auto;
+    width: 18%;
+    grid-gap:15%;
+    position:relative;
+    right: 25%;
+    top: 2.5%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+    border: 0px solid rgb(0, 0, 255);
+  }
+
+  svg:hover {
+      fill: #F16038;
+  }
