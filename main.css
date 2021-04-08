@@ -1,5 +1,5 @@
 body{
-    background-image: url("assets/concrete.jpg");
+    background-image: url("assets/concretewhite.jpg");
     background-size: 50%;
 }
 
@@ -12,11 +12,19 @@ body{
     margin-bottom: 70px;
     box-shadow: 10px 10px 15px 0px  #0f0f0f94;
 }
+
+.title{
+    width: 70%;
+    position: relative;
+    top: 5.5%;
+    left: 15%;
+}
+
 h2{
     position:relative;
     left: 15.5%;
     top: 2%;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;    
 }
 
 h1{
@@ -46,11 +54,11 @@ back-card:hover{
 .icon-container{
     display:grid;
     margin: 0 auto;
-    width: 18%;
+    width: 16%;
     grid-gap:15%;
     position:relative;
-    right: 25%;
-    top: 2.5%;
+    right: 26%;
+    top: 9%;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
